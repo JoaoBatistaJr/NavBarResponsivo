@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: $header-height 0 0 0;
+  font-family: $body-font;
+  font-size: $font-medium;
+  background: $body-color;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 50px;
+  height: auto;
+}

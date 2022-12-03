@@ -1,0 +1,35 @@
+// Import google fonts
+
+// Rubik font
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+// Poppins font
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// Header
+$header-height: 3rem;
+
+// Colors
+$fist-color: #baf2;
+$fist-color-alt: #baf;
+$body-color: #fbfbfb;
+$title-color: #000;
+$text-color: #fff;
+$container-color: #86f;
+
+// Typography
+$title-font: 'Rubik', sans-serif;
+$body-font: 'Poppins', sans-serif;
+
+$font-large: 1.5rem;
+$font-medium: .938rem;
+$font-small: .625rem;
+
+// Responsive Typography
+@media  screem and (min-width: 968px) {
+  $font-large: 2.25rem;
+  $font-medium: 1rem;
+}
+
+// Z-index
+$tooltip: 10;
+$z-fixed: 100;
